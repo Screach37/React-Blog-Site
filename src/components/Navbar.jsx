@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {menu, logo, close} from '../assets'
+import {menu, close} from '../assets'
 import { Link } from 'react-router-dom'
 const Navbar = () => {
   const[toggle, setToggle] = useState(false)
@@ -10,7 +10,7 @@ const Navbar = () => {
             
             {/* 1st item of the container - Logo */}
             <div className="flex items-center">
-                <img src={logo} alt="logo" className="sm:ml-10 md:ml-3 opacity-[100%] w-full h-[100px]" />
+                <img src="https://screach37.github.io/Portfolio/images/DevToDevops.png" alt="logo" className="sm:ml-10 md:ml-3 opacity-[100%] w-full h-[100px]" />
             </div>
 
             {/* 2st item of the container - Menu */}
